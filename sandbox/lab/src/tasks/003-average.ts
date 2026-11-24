@@ -1,0 +1,12 @@
+export function average(nums: number[]): number {
+  if (nums.length === 0) {
+    return 0;
+  }
+
+  let sum = 0;
+  for (const num of nums) {
+    sum += num;
+  }
+
+  return sum / nums.length;
+}
